@@ -15,8 +15,8 @@ export default class MyDocument extends Document {
                     <style>{`body { margin: 0 } html { font-family: Roboto, sans-serif; -webkit-font-smoothing: antialiased; }`}</style>
                     <meta charSet='utf-8' />
                     <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-                    <script src="/static/js/web3.min.js"></script>
+                    <link href="//unpkg.com/tachyons@4.8.1/css/tachyons.min.css" rel="stylesheet" />
+                    <link rel='stylesheet' type='text/css' href='//ricostacruz.com/nprogress/nprogress.css' />
                 </Head>
                 <body>
                     <Main />
