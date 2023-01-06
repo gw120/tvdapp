@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\components",
+    "\\migrations",
+    "\\pages",
+    "\\pages\\tv",
+    "\\server",
+    "\\services",
+    "\\static",
+    "\\static\\css",
+    "\\static\\js"
   ],
-  "SelectedNode": "\\C:\\Users\\asus\\Source\\Repos\\tvdapp",
+  "SelectedNode": "\\static\\js\\web3.min.js",
   "PreviewInSolutionExplorer": false
 }
