@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
-import { Provider } from 'mobx-react'
+import { Component } from 'react'
 import { initStore } from '../../mobx/store'
-import { setWeb3Instance, getBookmarks } from '../../services/blockChainService'
-import Shows from '../../components/shows'
-import Nav from '../../components/navigation'
+import Page from '../../components/page'
+
 
 export default class Fresh extends Component {
     static async getInitialProps() {
@@ -16,18 +14,10 @@ export default class Fresh extends Component {
         }
     }
 
-    componentDidMount() {
-        setWeb3Instance()
-            .then(() => getBookmarks())
-            .then(shows => {
-                console.log('componentDidMount')
-                this.store.setBookmarkShows(shows)
-            })
-    }
-
+   
     render() {
         return (
-            <Shows {...this.props.store} />
+            <Page type='fresh' store={this.store} />        
         )
     }
 }

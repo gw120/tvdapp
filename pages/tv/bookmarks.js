@@ -25,10 +25,8 @@ export default class Bookmarks extends Component {
              componentDidMount() {
                     setWeb3Instance()
                         .then(() => getBookmarks())
-                        .then(shows => {
-                            console.log('componentDidMount')
-                            this.store.setBookmarkShows(shows)
-                        })
+                        .then(shows => this.store.setBookmarkShows(shows))
+
                 }
 
                 render() {
@@ -36,7 +34,7 @@ export default class Bookmarks extends Component {
                         <Provider store={this.store}>
                             <div>
                                 <Nav selected='bookmarks' />
-                                <Shows {...this.store} />
+                                <Shows store={this.store} type='bookmarks' />     
                             </div>
                         </Provider>
                     )
