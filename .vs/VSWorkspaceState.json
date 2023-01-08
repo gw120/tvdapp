@@ -2,15 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\components",
-    "\\migrations",
     "\\pages",
-    "\\pages\\tv",
-    "\\server",
-    "\\services",
-    "\\static",
     "\\static\\css",
     "\\static\\js"
   ],
-  "SelectedNode": "\\static\\js\\web3.min.js",
   "PreviewInSolutionExplorer": false
 }
