@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
+    "\\migrations",
+    "\\mobx",
     "\\pages",
+    "\\pages\\tv",
+    "\\services",
+    "\\static\\contracts",
     "\\static\\css",
-    "\\static\\js"
+    "\\static\\js",
+    "\\test"
   ],
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
