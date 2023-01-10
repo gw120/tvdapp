@@ -5,12 +5,10 @@
     "\\mobx",
     "\\pages",
     "\\pages\\tv",
+    "\\server",
     "\\services",
-    "\\static\\contracts",
-    "\\static\\css",
-    "\\static\\js",
     "\\test"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
