@@ -7,7 +7,6 @@ export default class MyDocument extends Document {
         const styles = flush()
         return { html, head, errorHtml, chunks, styles }
     }
-
     render() {
         return (
             <html>
