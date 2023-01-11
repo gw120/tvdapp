@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\build",
     "\\migrations",
     "\\mobx",
     "\\pages",
     "\\pages\\tv",
     "\\server",
     "\\services",
+    "\\static",
     "\\test"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\server\\index.js",
   "PreviewInSolutionExplorer": false
 }
