@@ -1,5 +1,3 @@
-import Web3 from 'web3'
-
 import contract from 'truffle-contract'
 import BookmarkArtifact from '../build/contracts_1/Bookmark'
 import BookmarkArtifact from '../build/contracts/Bookmark'

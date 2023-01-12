@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\build",
-    "\\migrations",
+    "\\components",
     "\\mobx",
     "\\pages",
     "\\pages\\tv",
@@ -11,6 +11,6 @@
     "\\static",
     "\\test"
   ],
-  "SelectedNode": "\\server\\index.js",
+  "SelectedNode": "\\server\\api.js",
   "PreviewInSolutionExplorer": false
 }
